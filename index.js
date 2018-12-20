@@ -6,18 +6,18 @@ function sayHey() {
   return "Hey!";
 }
 
-function sayHeyFriend() {
-
+function sayHeyFriend(name) {
+  return `Hey, ${name}!`;
 }
 
-function favoriteIceCream() {
-
+function favoriteIceCream(flavor) {
+  return `I love ${flavor}`;
 }
 
-function shouting() {
-
+function shouting(string) {
+  return string.toUpperCase();
 }
 
 function roundDown() {
-
+  
 }
